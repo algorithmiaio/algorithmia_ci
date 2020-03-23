@@ -28,7 +28,7 @@ jobs:
         # The API address for the Algorithmia Cluster you wish to connect to
         api_address: https://api.algorithmia.com
         # The name of the Algorithm you want to test
-        algorithm_name: zeryx/algorithmia_ci
+        algorithm_name: zeryx/algorithmia_ci_simple
         # A list of Json Case objects that describe the desired test cases
         test_cases: '[{"case_name":"hello_world", "input":"algorithmia", "expected_output":"hello algorithmia"}]'
         # identifier to describe how to promote this release
