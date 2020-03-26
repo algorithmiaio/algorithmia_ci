@@ -17,15 +17,17 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Algorithmia CI
-      uses: algorithmiaio/algorithmia-ci-action@17d4fc0ce809e011acbd3f9d475a8122b6bea3bf
-      with:
-        # Your master Algorithmia API key
-        api_key: ${{ secrets.mgmt_api_key }}
-        # Your algorithm management capable Algorithmia API key
-        # The API address for the Algorithmia Cluster you wish to connect to
-        api_address: https://api.algorithmia.com
-        # identifier to describe how to promote this release
-        version_schema: minor
+      - name: test
+        run: "ls -lS /github/workspace"
+#     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+#     - name: Algorithmia CI
+#       uses: algorithmiaio/algorithmia-ci-action@17d4fc0ce809e011acbd3f9d475a8122b6bea3bf
+#       with:
+#         # Your master Algorithmia API key
+#         api_key: ${{ secrets.mgmt_api_key }}
+#         # Your algorithm management capable Algorithmia API key
+#         # The API address for the Algorithmia Cluster you wish to connect to
+#         api_address: https://api.algorithmia.com
+#         # identifier to describe how to promote this release
+#         version_schema: minor
 
