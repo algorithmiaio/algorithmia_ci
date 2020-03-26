@@ -19,7 +19,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Algorithmia CI
-      uses: algorithmiaio/algorithmia-ci-action@v0.1.0-rc7
+      uses: algorithmiaio/algorithmia-ci-action@e7def30ed0fb4549a3a7aa8a3240179ec41905d7
       with:
         # Your master Algorithmia API key
         api_key: ${{ secrets.mgmt_api_key }}
