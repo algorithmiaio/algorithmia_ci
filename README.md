@@ -1,4 +1,4 @@
-# algorithmia_ci_simple
+# algorithmia_ci
 Source for https://algorithmia.com/algorithms/zeryx/algorithmia_ci_simple
 
 
