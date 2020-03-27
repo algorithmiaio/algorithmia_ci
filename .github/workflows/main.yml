@@ -27,7 +27,7 @@ jobs:
         # The API address for the Algorithmia Cluster you wish to connect to
         api_address: https://api.algorithmia.com
         # identifier to describe how to promote this release ('major', 'minor', 'revision')
-        version_schema: minor
+        version_schema: revision
         # the path variable you defined in the actions/checkout action triggered before this one.
         path: algorithm
 
