@@ -23,7 +23,7 @@ jobs:
       uses: algorithmiaio/algorithmia-ci-action@v1.0.1
       with:
         # Your master Algorithmia API key
-        api_key: ${{ secrets.mgmt_api_key }}
+        api_key: ${{ secrets.api_key }}
         # The API address for the Algorithmia Cluster you wish to connect to
         api_address: https://api.algorithmia.com
         # identifier to describe how to promote this release ('major', 'minor', 'revision')
