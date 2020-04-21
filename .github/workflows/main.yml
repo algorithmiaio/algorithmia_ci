@@ -6,7 +6,7 @@ name: CI
 # In this instance we're triggering this workflow whenever a push to master is performed.
 on:
   push:
-    branches: [master]
+#     branches: [master]
 
 jobs:
   # This workflow only contains a single job, however if you'd like you can split this processing across multiple jobs.
