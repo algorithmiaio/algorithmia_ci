@@ -20,7 +20,7 @@ jobs:
         ref: ${{github.sha}}
         path: algorithm
     - name: Algorithmia CI
-      uses: algorithmiaio/algorithmia-ci-action@v1.2.4
+      uses: algorithmiaio/algorithmia-ci-action@1.2.4
       with:
         # Your master Algorithmia API key
         api_key: ${{ secrets.api_key }}
